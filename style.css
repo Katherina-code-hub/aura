@@ -23,3 +23,17 @@ body{
     background: var(--cor-primaria);
     color: aliceblue;
 }
+
+/*Grid e Card*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:var(--espacamento);
+    padding:var(--espacamento);
+}
+
+.card{
+    background: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
